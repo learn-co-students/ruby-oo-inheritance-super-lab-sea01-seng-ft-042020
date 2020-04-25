@@ -4,8 +4,6 @@ class Student
     end
 
     def raise_hand
-        x = 1
-        phrase = Array.new(x,"Pick me!")
-        phrase.each{|element| puts element}
+        puts "Pick me!"
     end
 end

@@ -7,8 +7,6 @@ class ChattyStudent < Student
 
     def raise_hand
         super
-        x = 9
-        phrase = Array.new(x,"Pick me!")
-        phrase.each{|element| puts element}
+        Array.new(9,"Pick me!").each{|element| puts element}
     end
 end
